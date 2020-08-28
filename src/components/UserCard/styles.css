@@ -1,0 +1,24 @@
+.person-info>.content>.image {
+    width: auto !important;
+}
+.person-info .description {
+    padding-left: 12px !important;
+}
+.person-info .description .header {
+    margin-bottom: 0;
+    line-height: 32px;
+    color: #000 !important;
+}
+.person-info .description p {
+    line-height: 20px;
+    margin-bottom: 0;
+}
+.person-info .header {
+    color: #00a399 !important;
+}
+
+@media screen and (max-width: 576px) {
+    .person-info .description {
+        text-align: center;
+    }
+}
